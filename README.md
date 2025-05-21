@@ -80,8 +80,8 @@ docker run \
 ```
 
 ### Supported DNS Providers
-At the moment, this tool is only tested to work with DigitalOcean and Cloudflare. One just needs
-to change `name: digitalocean` to `name: cloudflare` for this to work.
+At the moment, this tool is only tested to work with DigitalOcean, Cloudflare, and Amazon Route53. 
+One just needs to change `name: digitalocean` to `name: cloudflare` or `name: route53` for this to work.
 
 
 ## Why No Docker Compose?
