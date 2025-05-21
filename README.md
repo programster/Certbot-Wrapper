@@ -38,7 +38,7 @@ sites:
 
 For those using AWS Route53, one needs to provide the API key ID and scret like so:
 
-```language-yaml
+```yaml
 email: my.email@gmail.com
 
 dnsProvider:
