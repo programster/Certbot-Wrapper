@@ -1,4 +1,5 @@
-# Rundeck Ssl Generator
+Certbot Wrapper
+===============
 
 A tool to automate the creation of TLS certificates through Let's Encrypt, and place them in an S3
 bucket. This tool makes use of separate config files for each environment, which can be updated 
