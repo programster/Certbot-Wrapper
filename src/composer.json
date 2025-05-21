@@ -1,0 +1,16 @@
+{
+    "require": {
+        "programster/core-libs": "^2.3",
+        "ext-yaml": "*"
+    },
+    "config": {
+        "platform" : {
+            "php": "8.2.0",
+            "ext-mbstring": "1",
+            "ext-curl": "1",
+            "ext-yaml": "1",
+            "ext-xml": "1",
+            "ext-simplexml": "1"
+        }
+    }
+}

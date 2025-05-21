@@ -1,0 +1,32 @@
+email: my.email@gmail.com
+
+# Specify how many seconds to wait for DNS to propagate after having created the TXT record,
+# before telling Let's encrypt to look for it to complete the challenge.
+# If not specified, will default to 30 seconds.
+# This only applies to DigitalOcean and cloudflare, not route53
+propagationTime: 15
+
+dnsProvider:
+  name: digitalocean
+  apiKey: xxxxxxxxxxxxxxxxx
+
+# Alternative if using cloudflare.
+#dnsProvider:
+#  name: cloudflare
+#  apiKey: xxxxxxxxxxxxxxxxx
+
+# Alternatively, if using route53
+#dnsProvider:
+#  name: route53
+#  apiKeyId: AKIAXXXXXXXXXXXXXXXXXXX
+#  apiKey: XXXXXXXXXXXXXXXXX
+
+sites:
+  - destFolder: mydomain
+    domains:
+      - mydomain.com
+
+  - destFolder: some/long/path/myotherdomain
+    domains:
+      - myotherdomain.co.uk
+      - www.myotherdomain.co.uk
